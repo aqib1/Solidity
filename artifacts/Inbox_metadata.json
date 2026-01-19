@@ -17,21 +17,32 @@
 				"type": "constructor"
 			},
 			{
-				"inputs": [],
-				"name": "getMessage",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "doMath",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "message",
+				"name": "getMessage",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -84,11 +95,11 @@
 	},
 	"sources": {
 		"contracts/3_Ballot.sol": {
-			"keccak256": "0x5ab409d17a16eb67aaaf5e2cc8d5866015a665707f8bfc54562d18e600af40db",
+			"keccak256": "0x2dbeedd300914f288526f983e8731bf2e5f7d252f0d017690a4329d1ed627a8a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c20d614266ffce9db0cca2230eb861e5dddb1e6aef5f856a6aa0145ab9f49bf6",
-				"dweb:/ipfs/QmcN32XyxtV47w5B2CKmD3Gacmnh7XAphQDRwJuQBFHDsy"
+				"bzz-raw://afcc9be03cc793a76a5ade6b4e7c8e5f8bb09777c9b7b1d371e000538bfcaf93",
+				"dweb:/ipfs/QmPVK7XvgAfXS95wotb9CYCAYrdpwBaVyTH1oWdQjyk537"
 			]
 		}
 	},
